@@ -1,28 +1,66 @@
 {
-  "de": {
-    "error_no_directory": "Fehler: Kein Verzeichnis angegeben.",
-    "error_directory_not_found": "Fehler: Das Verzeichnis '{0}' wurde nicht gefunden.",
-    "error_access_denied": "Fehler: Keine Berechtigung, auf das Verzeichnis '{0}' zuzugreifen.",
-    "success_directory_changed": "Erfolgreich in das Verzeichnis {0} gewechselt.",
-    "help_title": "cd [Verzeichnis]",
-    "help_description": "Wechselt in das angegebene Verzeichnis.",
-    "help_options": {
-      "help": "Zeigt diese Hilfe an.",
-      "directory": "Das Zielverzeichnis, in das gewechselt werden soll."
-    },
-    "example": "cd /home/user    Wechselt in das Verzeichnis /home/user."
+  "error_no_directory": "Fehler: Kein Verzeichnis angegeben.",
+  "error_directory_not_found": "Fehler: Das Verzeichnis '{0}' wurde nicht gefunden.",
+  "error_access_denied": "Fehler: Keine Berechtigung, auf das Verzeichnis '{0}' zuzugreifen.",
+  "success_directory_changed": "Erfolgreich in das Verzeichnis {0} gewechselt.",
+
+  "cd_help": "Wechselt in das angegebene Verzeichnis.",
+  "ls_help": "Zeigt den Inhalt des Verzeichnisses an.",
+  "pwd_help": "Zeigt das aktuelle Arbeitsverzeichnis an.",
+  "rm_help": "Löscht die angegebene Datei oder das Verzeichnis.",
+  "project_help": "Erstellt ein neues Projekt mit der angegebenen Vorlage. Optionen: --minimal, --README.",
+
+  "project_created": "Projekt '{0}' erstellt im Verzeichnis {1}.",
+  "readme_created": "README.md Datei wurde im Projektverzeichnis erstellt.",
+  "minimal_project_created": "Minimalprojektstruktur für '{0}' erstellt.",
+  "project_structure_created": "Projektstruktur für '{0}' mit Vorlage '{1}' erstellt.",
+
+  "ls_option_help": "Zeigt den Inhalt des aktuellen Verzeichnisses an. Optionen: --color.",
+  "ls_color_help": "Färbt die Ausgabe, um verschiedene Dateitypen hervorzuheben.",
+
+  "project_options": {
+    "--minimal": "Erstellt nur die grundlegenden Dateien ohne zusätzliche Vorlagen.",
+    "--README": "Erstellt eine README-Datei. Standardmäßig wird eine README-Datei erstellt."
   },
-  "en": {
-    "error_no_directory": "Error: No directory specified.",
-    "error_directory_not_found": "Error: The directory '{0}' was not found.",
-    "error_access_denied": "Error: No permission to access the directory '{0}'.",
-    "success_directory_changed": "Successfully changed to the directory {0}.",
-    "help_title": "cd [Directory]",
-    "help_description": "Changes to the specified directory.",
-    "help_options": {
-      "help": "Shows this help message.",
-      "directory": "The target directory to change to."
-    },
-    "example": "cd /home/user    Changes to the /home/user directory."
-  }
+
+  "pwd_help": "Zeigt das aktuelle Arbeitsverzeichnis an.",
+
+  "help_title": "Verfügbare Befehle:",
+  "help_description": "Verwenden Sie den Befehl 'help [Befehl]', um eine detaillierte Hilfe für einen bestimmten Befehl zu erhalten.",
+  "help_options": {
+    "--help": "Zeigt diese Hilfe an."
+  },
+
+  "init_help": "Initialisiert ein neues Repository.",
+  "init_success": "Repository erfolgreich initialisiert.",
+
+  "ls_no_arguments": "Es wurden keine Argumente angegeben, bitte geben Sie einen Pfad an.",
+  "ls_files": "Dateien im aktuellen Verzeichnis:",
+
+  "rm_file_deleted": "Die Datei '{0}' wurde gelöscht.",
+  "rm_directory_deleted": "Das Verzeichnis '{0}' wurde gelöscht.",
+  "rm_error": "Fehler beim Löschen von '{0}': {1}",
+
+  "help_command": "Verwendung: help [Befehl] - Zeigt diese Hilfe an.",
+  "invalid_command": "Ungültiger Befehl. Geben Sie 'help' ein, um eine Liste der verfügbaren Befehle zu sehen.",
+  "invalid_option": "Ungültige Option: {0}",
+
+  "todo_add": "TODO hinzugefügt: {0}",
+  "todo_remove": "TODO entfernt: {0}",
+  "todo_list": "Todo-Liste:",
+  "todo_help": "Verwaltet die Todo-Liste. Optionen: --add, --remove, --list.",
+  "todo_add_help": "--add [Aufgabe]   Fügt eine Aufgabe zur Todo-Liste hinzu.",
+  "todo_remove_help": "--remove [Aufgabe]   Entfernt eine Aufgabe aus der Todo-Liste.",
+  "todo_list_help": "--list   Zeigt alle Aufgaben der Todo-Liste an.",
+
+  "backup_create": "Backup für '{0}' erstellt.",
+  "backup_restore": "Backup für '{0}' wiederhergestellt.",
+  "backup_help": "Erstellt und stellt Backups für Verzeichnisse und Dateien her. Optionen: --create, --restore.",
+  "backup_create_help": "--create [Verzeichnis]   Erstellt ein Backup des angegebenen Verzeichnisses.",
+  "backup_restore_help": "--restore [Verzeichnis]   Stellt ein Backup des angegebenen Verzeichnisses wieder her.",
+
+  "diff_output": "Unterschiede zwischen {0} und {1}:",
+  "diff_help": "Vergleicht zwei Dateien und zeigt die Unterschiede an. Verwendung: diff [Datei1] [Datei2].",
+
+  "init_project_structure": "Initialisiert die Projektstruktur für '{0}'."
 }

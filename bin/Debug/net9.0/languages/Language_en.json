@@ -1,0 +1,13 @@
+{
+  "error_no_directory": "Error: No directory specified.",
+  "error_directory_not_found": "Error: The directory '{0}' was not found.",
+  "error_access_denied": "Error: No permission to access the directory '{0}'.",
+  "success_directory_changed": "Successfully changed to the directory {0}.",
+  "help_title": "cd [Directory]",
+  "help_description": "Changes to the specified directory.",
+  "help_options": {
+    "help": "Shows this help message.",
+    "directory": "The target directory to change to."
+  },
+  "example": "cd /home/user    Changes to the /home/user directory."
+}

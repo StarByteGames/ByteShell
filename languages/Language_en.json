@@ -1,0 +1,67 @@
+{
+  "error_no_directory": "Error: No directory specified.",
+  "error_directory_not_found": "Error: Directory '{0}' not found.",
+  "error_access_denied": "Error: No permission to access directory '{0}'.",
+  "success_directory_changed": "Successfully changed directory to {0}.",
+
+  "cd_help": "Changes to the specified directory.",
+  "ls_help": "Shows the contents of the directory.",
+  "pwd_help": "Shows the current working directory.",
+  "rm_help": "Deletes the specified file or directory.",
+  "project_help": "Creates a new project with the specified template. Options: --minimal, --README.",
+
+  "project_created": "Project '{0}' created at {1}.",
+  "readme_created": "README.md file created in the project directory.",
+  "minimal_project_created": "Minimal project structure for '{0}' created.",
+  "project_structure_created": "Project structure for '{0}' created with template '{1}'.",
+
+  "ls_option_help": "Displays the contents of the current directory. Options: --color.",
+  "ls_color_help": "Colors the output to highlight different file types.",
+
+  "project_options": {
+    "--minimal": "Creates only the basic files without additional templates.",
+    "--README": "Creates a README file. By default, a README file is created."
+  },
+
+  "pwd_help": "Shows the current working directory.",
+
+  "help_title": "Available Commands:",
+  "help_description": "Use the 'help [command]' command to get detailed help for a specific command.",
+  "help_options": {
+    "--help": "Shows this help."
+  },
+
+  "init_help": "Initializes a new repository.",
+  "init_success": "Repository successfully initialized.",
+
+  "ls_no_arguments": "No arguments were provided. Please specify a path.",
+  "ls_files": "Files in the current directory:",
+
+  "rm_file_deleted": "File '{0}' deleted.",
+  "rm_directory_deleted": "Directory '{0}' deleted.",
+  "rm_error": "Error deleting '{0}': {1}",
+
+  "help_command": "Usage: help [command] - Shows this help.",
+  "invalid_command": "Invalid command. Type 'help' for a list of available commands.",
+  "invalid_option": "Invalid option: {0}",
+
+  "todo_add": "TODO added: {0}",
+  "todo_remove": "TODO removed: {0}",
+  "todo_list": "Todo List:",
+  "todo_help": "Manages the Todo list. Options: --add, --remove, --list.",
+  "todo_add_help": "--add [task]   Adds a task to the Todo list.",
+  "todo_remove_help": "--remove [task]   Removes a task from the Todo list.",
+  "todo_list_help": "--list   Lists all tasks in the Todo list.",
+
+  "backup_create": "Backup created for '{0}'.",
+  "backup_restore": "Backup restored for '{0}'.",
+  "backup_help": "Creates and restores backups for directories and files. Options: --create, --restore.",
+  "backup_create_help": "--create [directory]   Creates a backup of the specified directory.",
+  "backup_restore_help": "--restore [directory]   Restores a backup of the specified directory.",
+
+  "diff_output": "Differences between {0} and {1}:",
+  "diff_help": "Compares two files and shows the differences. Usage: diff [file1] [file2].",
+
+  "init_project_structure": "Initializes the project structure for '{0}'."
+}
+s
