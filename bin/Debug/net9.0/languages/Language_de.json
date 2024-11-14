@@ -1,0 +1,20 @@
+{
+  "error_no_directory": "Fehler: Kein Verzeichnis angegeben.",
+  "error_listing_files": "Fehler beim Auflisten der Dateien im Verzeichnis '{0}'.",
+  "success_listing_files": "Erfolgreich Dateien im Verzeichnis '{0}' aufgelistet.",
+  "listing_files": "Dateien und Verzeichnisse:",
+  "error_creating_directory": "Fehler beim Erstellen des Verzeichnisses '{0}'.",
+  "success_directory_created": "Verzeichnis '{0}' erfolgreich erstellt.",
+  "error_no_file": "Fehler: Keine Datei angegeben.",
+  "success_file_deleted": "Datei '{0}' erfolgreich gelöscht.",
+  "error_deleting_file": "Fehler beim Löschen der Datei '{0}'.",
+  "exit_message": "Shell wird beendet.",
+  "help_title": "Befehl: {0}",
+  "help_description": "Beschreibt den Befehl und seine Nutzung.",
+  "help_options": {
+    "help": "Zeigt diese Hilfe an.",
+    "directory": "Das Zielverzeichnis, in das gewechselt werden soll.",
+    "file": "Die Datei, die gelöscht werden soll."
+  },
+  "example": "Beispiel: mkdir TestVerzeichnis  - Erstellt das Verzeichnis 'TestVerzeichnis'."
+}

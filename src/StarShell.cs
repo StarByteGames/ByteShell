@@ -1,12 +1,12 @@
-using Shell.Services;
+using StarShell.Services;
 
 namespace StarShell
 {
-    public class Shell
+    public class StarShell
     {
         private readonly CommandExecutor _executor;
 
-        public Shell()
+        public StarShell()
         {
             SettingsLoader.init();
             _executor = new CommandExecutor();
